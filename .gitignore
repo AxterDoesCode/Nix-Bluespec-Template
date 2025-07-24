@@ -2,3 +2,4 @@ build_v/
 verilog/
 *.bit
 .Xil/
+.srcs/
