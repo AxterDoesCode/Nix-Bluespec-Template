@@ -27,3 +27,5 @@ route_design
 
 # write bitstream
 write_bitstream -force "bitstream.bit"
+
+# TODO: Write the .xsa file here for use within Vitis/PetaLinux
