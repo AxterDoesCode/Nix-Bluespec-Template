@@ -3,7 +3,7 @@ interface ITop;
     method Bit#(4) led();
 endinterface
 
-(* synthesize, default_reset="RST" *)
+(* synthesize *)
 module mkTop (ITop);
     // Enable generator (1hz)
     let clkEnCount = 62_500_000; // Arty Z7 base clk is 125Mhz

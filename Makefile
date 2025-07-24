@@ -15,6 +15,7 @@ compile: build_v verilog
 build:
 	vivado -mode batch -nolog -nojournal -source build.tcl
 	rm usage_statistics_webtalk.html usage_statistics_webtalk.xml
+	echo "Bitstream generated successfully"
 
 program:
 	openFPGALoader -b arty_z7_20 bitstream.bit
