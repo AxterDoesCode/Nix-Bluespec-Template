@@ -22,6 +22,6 @@ module mkTop (ITop);
     endrule
 
     method Bit#(4) led;
-        return pack(counter)[3:0]
+        return pack(counter)[3:0];
     endmethod
 endmodule
