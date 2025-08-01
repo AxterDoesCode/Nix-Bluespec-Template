@@ -1,5 +1,6 @@
 # Create the block design
-create_bd_design "yep"
+set bdname "yep"
+create_bd_design $bdname
 
 # Add Zynq-7000 PS IP
 set processing_system [
